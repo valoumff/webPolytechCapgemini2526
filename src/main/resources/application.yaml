@@ -1,3 +1,8 @@
 spring:
   application:
-    name: polytech
+    name: polytech-crud
+  datasource:
+    url: jdbc://localhost:3306/polytech
+    username: Theo
+    password: password
+    driver-class-name: org.mariadb.jdbc.Driver
